@@ -1,0 +1,136 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "a8d42c671e5e0c921740",
+  "position": {
+    "x": 15.494365198203168,
+    "y": 275.02498226810621,
+    "z": 16000,
+    "height": 170.43801718023485,
+    "width": 215.62991567499409,
+    "tabOrder": 16000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "DAYS",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "12pt",
+                      "textDecoration": "underline",
+                      "color": "#094780"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Orders are",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " highest ",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "color": "#ad5129"
+                    }
+                  },
+                  {
+                    "value": "on weekends, ",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "Friday/Saturday",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "color": "#118dff"
+                    }
+                  },
+                  {
+                    "value": " Evenings.",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "MONTHLY",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "12pt",
+                      "textDecoration": "underline",
+                      "color": "#ad5129"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "There are ",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "maximum ",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "color": "#ad5129"
+                    }
+                  },
+                  {
+                    "value": "orders ",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "color": "#000000"
+                    }
+                  },
+                  {
+                    "value": "from the month of ",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "July and May.",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "color": "#0d6abf"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

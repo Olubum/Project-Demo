@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "55afd2e5eea8378ab28e",
+  "position": {
+    "x": 15.142049130330307,
+    "y": 122.65059795567549,
+    "z": 23000,
+    "height": 49.968762130090013,
+    "width": 215.01709765069037,
+    "tabOrder": 23000
+  },
+  "visual": {
+    "visualType": "pageNavigator",
+    "objects": {
+      "pages": [
+        {
+          "properties": {
+            "showPage": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "59353916ec3e7c45d835"
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "howCreated": "InsertVisualButton"
+}

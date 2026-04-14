@@ -1,0 +1,61 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "pizza_sales",
+          "nodeLineageTag": "b8953084-1015-4f8d-9349-38340513fd17",
+          "size": {
+            "height": 400,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 593,
+            "y": 13
+          },
+          "nodeIndex": "_Measure",
+          "nodeLineageTag": "c3f3bd62-fac9-4798-b21d-945005e4c09d",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 299,
+            "y": 0
+          },
+          "nodeIndex": "Date",
+          "nodeLineageTag": "27bee676-9d85-457f-b525-9b350daae44f",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 1
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

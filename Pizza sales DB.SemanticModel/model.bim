@@ -1,0 +1,470 @@
+{
+  "compatibilityLevel": 1600,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"pizza_sales\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "8e81afa8-28d1-e580-9b96-999a03dfc850",
+        "crossFilteringBehavior": "bothDirections",
+        "fromColumn": "order_date",
+        "fromTable": "pizza_sales",
+        "toColumn": "Date",
+        "toTable": "Date"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "pizza_sales",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "pizza_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "16d87d9c-2532-407a-951f-0e268a2ff368",
+            "sourceColumn": "pizza_id",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "order_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2878e1fc-a01e-41f4-b8d3-4fee41c73ac3",
+            "sourceColumn": "order_id",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "pizza_name_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "007e21ea-0594-4213-bed3-6097dce959b5",
+            "sourceColumn": "pizza_name_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "quantity",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3261478d-b6ac-4300-981b-53be5b852e5b",
+            "sourceColumn": "quantity",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "order_date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "b25adca7-8b32-43d6-966e-836973a3ae58",
+            "sourceColumn": "order_date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "unit_price",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "bb30b195-f025-42b8-bd0b-2c395bea1448",
+            "sourceColumn": "unit_price",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "total_price",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "51f9f22e-d4b3-47e4-aafa-abfaa653e2c7",
+            "sourceColumn": "total_price",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "pizza_size",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9a3096ab-7080-4897-8a1e-40d5cb282b8a",
+            "sourceColumn": "pizza_size",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "pizza_category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d00b4ff8-6101-4f58-aa53-4cca866f9daa",
+            "sourceColumn": "pizza_category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "pizza_ingredients",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "45914ab3-f647-4969-9e09-6bfc5cf646f1",
+            "sourceColumn": "pizza_ingredients",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "pizza_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0f2736b6-6300-4eb2-ae90-99d7bf1dddf7",
+            "sourceColumn": "pizza_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "order_time",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "lineageTag": "b7e772db-8463-421e-a03b-ab1943cbfaf7",
+            "sourceColumn": "order_time",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "b8953084-1015-4f8d-9349-38340513fd17",
+        "partitions": [
+          {
+            "name": "pizza_sales",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\Toba\\Downloads\\pizza_sales_excel_file.xlsx\"), null, true),",
+                "    pizza_sales_Sheet = Source{[Item=\"pizza_sales\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(pizza_sales_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"pizza_id\", Int64.Type}, {\"order_id\", Int64.Type}, {\"pizza_name_id\", type text}, {\"quantity\", Int64.Type}, {\"order_date\", type date}, {\"order_time\", type datetime}, {\"unit_price\", type number}, {\"total_price\", type number}, {\"pizza_size\", type text}, {\"pizza_category\", type text}, {\"pizza_ingredients\", type text}, {\"pizza_name\", type text}}),",
+                "    #\"Replaced Value\" = Table.ReplaceValue(#\"Changed Type\",\"M\",\"Medium\",Replacer.ReplaceText,{\"pizza_size\"}),",
+                "    #\"Replaced Value1\" = Table.ReplaceValue(#\"Replaced Value\",\"L\",\"Large\",Replacer.ReplaceText,{\"pizza_size\"}),",
+                "    #\"Replaced Value2\" = Table.ReplaceValue(#\"Replaced Value1\",\"S\",\"Small\",Replacer.ReplaceText,{\"pizza_size\"}),",
+                "    #\"Replaced Value3\" = Table.ReplaceValue(#\"Replaced Value2\",\"XLarge\",\"X-Large\",Replacer.ReplaceText,{\"pizza_size\"}),",
+                "    #\"Filtered Rows\" = Table.SelectRows(#\"Replaced Value3\", each true),",
+                "    #\"Split Column by Positions\" = Table.SplitColumn(Table.TransformColumnTypes(#\"Filtered Rows\", {{\"order_time\", type text}}, \"en-US\"), \"order_time\", Splitter.SplitTextByPositions({0, 11}), {\"order_time.1\", \"order_time.2\"}),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Split Column by Positions\",{{\"order_time.1\", type date}, {\"order_time.2\", type time}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type1\",{\"order_time.1\"}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Removed Columns\",{{\"order_time.2\", \"order_time\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "_Measure",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "e358bb1e20644e858962c0dc330ec128"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Column",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "4a677373-08a1-4f98-a061-30c5971593d3",
+            "sourceColumn": "[Column]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "c3f3bd62-fac9-4798-b21d-945005e4c09d",
+        "measures": [
+          {
+            "name": "Total Revenue",
+            "expression": "SUM(pizza_sales[total_price])",
+            "formatString": "#,0.00",
+            "lineageTag": "3cd159fa-874f-42d2-89df-0e8ed46e8232"
+          },
+          {
+            "name": "Total Pizza Sold",
+            "expression": "SUM(pizza_sales[quantity])",
+            "formatString": "#,0",
+            "lineageTag": "e41c29d9-3d47-4adc-9bcb-f95e605a54c4"
+          },
+          {
+            "name": "Total Order",
+            "expression": "DISTINCTCOUNT(pizza_sales[order_id])",
+            "formatString": "#,0",
+            "lineageTag": "18f454b5-fd33-4a26-a583-648ace3db718"
+          },
+          {
+            "name": "Avg pizza per order",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "[Total Pizza Sold] / [Total Order]",
+            "lineageTag": "544ee732-2bb2-48e3-a5a5-fb486d0df37a"
+          },
+          {
+            "name": "Avg Order value",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "[Total Revenue]/ [Total Order]",
+            "lineageTag": "24935235-2b7c-4736-8646-31b12e090223"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "_Measure",
+            "mode": "import",
+            "source": {
+              "expression": "Row(\"Column\", BLANK())",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Date",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "2f6d67a992504d06a8c6fb89365094b4"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isDataTypeInferred": true,
+            "isKey": true,
+            "isNameInferred": true,
+            "lineageTag": "87a303dd-d519-4e7e-8647-9f39328bf2e4",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Month Number",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "MONTH('Date'[Date])",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "d2af54e1-4dcf-4ada-afc9-2db6aa05f42b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "FORMAT('Date'[Date],\"mmm\")",
+            "isDataTypeInferred": true,
+            "lineageTag": "587a013c-a292-404d-8353-5507eea43a4a",
+            "sortByColumn": "Month Number",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day Number",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "WEEKDAY('Date'[Date],2)",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "9eeca321-1e48-4973-ae42-3e8d4d48d112",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "FORMAT('Date'[Date], \"ddd\")",
+            "isDataTypeInferred": true,
+            "lineageTag": "dc177588-7939-4741-ba3d-af08b1bdb326",
+            "sortByColumn": "Day Number",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "isDataTypeInferred": true,
+            "lineageTag": "544c0851-1dea-4e26-9c69-cc4bf6b23a63",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "dataCategory": "Time",
+        "lineageTag": "27bee676-9d85-457f-b525-9b350daae44f",
+        "partitions": [
+          {
+            "name": "Date",
+            "mode": "import",
+            "source": {
+              "expression": "CALENDARAUTO()",
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
